@@ -1,0 +1,11 @@
+###comment 
+GET http://localhost:3000/data/1
+
+###comment 
+
+POST http://localhost:3000/update
+Content-Type: application/json
+
+{
+  "name" : "jona"
+}
